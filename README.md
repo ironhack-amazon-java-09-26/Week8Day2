@@ -1,9 +1,7 @@
+# Exercise week 7 - day 1 
 
+- continue the exercise with Halloween candies but add inheritance.
 
-1. create controller package
-2. create GreetController class inside the package
-3. use @RestController annotation on the GreetController class
-4. use @RequestMapping annotation on the GreetController class with the value "/greet"
-5. create a method named greet inside the GreetController class that return a String "Hola hola hola!"
-6. use @GetMapping annotation on the greet method
-7. try the app by opening the browser and go to http://localhost:8080/greet
+1. first try single table
+2. then table per class
+3. finally joined table
