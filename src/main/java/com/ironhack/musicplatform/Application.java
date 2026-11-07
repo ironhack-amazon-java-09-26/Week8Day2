@@ -1,4 +1,4 @@
-package com.ironhack.hellocrud;
+package com.ironhack.musicplatform;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
