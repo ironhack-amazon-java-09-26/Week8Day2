@@ -1,18 +1,20 @@
-# Exercise week 8 Day 1
+# Exercise Week 8 – Day 1
 
-Replicar lo mismo que hicimos aqui pero con viajes
+Replicar lo mismo que hicimos aquí, pero con **viajes**.
 
+## Entidades
 
-Trip -> Itinerary (One to One)
+| Entidad    | Campos                |
+|------------|-----------------------|
+| `Trip`     | `destination`         |
+| `Itinerary`| `description`         |
+| `Flight`   | `origin`, `destination` |
+| `Traveler` | `name`, `email`       |
 
-Trip (destination)
-Itinerary(description)
+## Relaciones
 
-
-Trip -> Flights (One to Many)
-
-Flight (origin, destination)
-
-Trip -> Traveler (Many to Many)
-
-Traveler(name, email)
+| Relación              | Tipo         |
+|-----------------------|--------------|
+| `Trip` → `Itinerary`  | One to One   |
+| `Trip` → `Flight`     | One to Many  |
+| `Trip` ↔ `Traveler`   | Many to Many |
