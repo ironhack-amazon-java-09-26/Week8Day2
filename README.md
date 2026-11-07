@@ -1,7 +1,18 @@
-# Exercise week 7 - day 1 
+# Exercise week 8 Day 1
 
-- continue the exercise with Halloween candies but add inheritance.
+Replicar lo mismo que hicimos aqui pero con viajes
 
-1. first try single table
-2. then table per class
-3. finally joined table
+
+Trip -> Itinerary (One to One)
+
+Trip (destination)
+Itinerary(description)
+
+
+Trip -> Flights (One to Many)
+
+Flight (origin, destination)
+
+Trip -> Traveler (Many to Many)
+
+Traveler(name, email)
